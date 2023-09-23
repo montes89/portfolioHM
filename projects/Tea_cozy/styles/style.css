@@ -1,0 +1,161 @@
+body {
+	background-color: black;
+	margin: 0;
+	font-family: Helvetica;
+	color: white;
+}
+
+.mainBody {
+	margin: 5px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* start of header */
+header {
+	display: flex;
+	height: 69px;
+}
+
+.topLogo {
+	display: flex;
+	flex: 6;
+}
+
+img.logo {
+	height: 50px;
+	padding-left: 10px;
+}
+
+.topNav {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 6;
+	justify-content: flex-end;
+}
+
+ul.top-menue {
+	display: flex;
+	padding: 0;
+	color: white;
+	font-size: 22px;
+}
+
+li {
+	padding: 0px 10px;
+	text-decoration: underline;
+	list-style-type: none;
+}
+/* end of Header */
+
+/* start of main section */
+
+.main {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	height: 700px;
+	width: 1200px;
+	background-image:url("../images/mission-background.jpg");
+	background-color: #acacac;
+	background-blend-mode: darken;
+}
+
+.centerText {
+	text-align: center;
+	color: white;
+	background-color: black;
+	width: 100%;
+}
+
+/* end of main section */
+
+/* start of Tea of the month  */
+
+
+.teaMonths {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 1000px;
+}
+
+.teaHeding {
+	margin-top: 50px;
+	display: flex;
+	display: block;
+	text-align: center;
+	width: 100%;
+
+}
+
+#teaImg img{
+	height: 200px;
+	width: 300px;
+	background-color: blue;
+}
+
+#teaImg p {
+	text-align: center;
+}
+
+
+.location {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	background-image:url("../images/locations-background.jpg");
+	height: 550px;
+	width: 1200px;
+}
+
+.tittle {
+	position: relative;
+	left: 580px;
+	top: -190px;
+
+}
+
+
+.listLocations {
+	display: flex;
+}
+
+h6 {
+	font-size: 30px;
+}
+
+div#threeLocation {
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	margin: 20px;
+	text-align: center;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+.lastSection {
+	height: 200px;
+	text-align: center;
+}
+
+h6 {
+	margin: 10px 0px;
+}
+
+
+footer {
+	text-align: left;
+}
+
+.copy{
+	margin-left: 20px;
+}
